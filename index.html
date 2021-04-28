@@ -46,10 +46,10 @@
 				<nav class="menu">
 				    <!-- Menu Links -->
 					<div class="icon-list">
-						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-						<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
-						<a href="index.html#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
-						<a href="index.html#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+						<a href="#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
+						<a href="#about"><i class="fa fa-fw fa-quote-left"></i><span>About</span></a>
+						<a href="#service"><i class="fa fa-fw fa-globe"></i><span>Service</span></a>
+						<a href="#portfolio"><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
 					</div>
 				</nav>
 			    </div>
@@ -79,7 +79,7 @@
 			  <!-- Learn More Button -->
               <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="index.html#about" class="scrollto wow fadeInUp delay-5s ">
+                  <a href="#about" class="scrollto wow fadeInUp delay-5s ">
 			            <p>SEE MORE</p>
 			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
 			        </a>
@@ -286,7 +286,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <a href="index.html#contact" class="outline-btn">hire john doe</a>
+                <a href="#contact" class="outline-btn">hire irfan</a>
               </div>
             </div>
           </div>
@@ -301,7 +301,7 @@
         =========================== -->
         <section class="text-center section-padding contact-wrap" id="contact">
 		  <!-- To Top Button -->
-          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
+          <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
           <div class="container">
 		    <!-- Headline -->
             <div class="row">
@@ -337,11 +337,11 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="social-buttons">
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
+                  <li><a href="#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
+                  <li><a href="#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
+                  <li><a href="#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+				  <li><a href="#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
+				  <li><a href="#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
                 </ul>
               </div>
             </div>
@@ -393,38 +393,6 @@
 	<!-- Theme JavaScript Core -->
 	<script src="js/main.js"></script>
 	<script src="js/script.js"></script>
-
-	<!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-    // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-    
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 15,
-                
-                scrollwheel: false,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York 
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [	{		featureType:'water',		stylers:[{color:'#F2F2F2'},{visibility:'on'}]	},{		featureType:'landscape',		stylers:[{color:'#FFFFFF'}]	},{		featureType:'road',		stylers:[{saturation:-100},{lightness:45}]	},{		featureType:'road.highway',		stylers:[{visibility:'simplified'}]	},{		featureType:'road.arterial',		elementType:'labels.icon',		stylers:[{visibility:'off'}]	},{		featureType:'administrative',		elementType:'labels.text.fill',		stylers:[{color:'#ADADAD'}]	},{		featureType:'transit',		stylers:[{visibility:'off'}]	},{		featureType:'poi',		stylers:[{visibility:'off'}]	}]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googlemaps');
-
-            // Create the Google Map using out element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
-        }
-	
-    </script>
 	
 	<!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">
